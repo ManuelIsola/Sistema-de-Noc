@@ -10,3 +10,17 @@ document.getElementById("togglePassword").addEventListener("click", function() {
     this.querySelector('i').classList.toggle('bi-eye');
     this.querySelector('i').classList.toggle('bi-eye-slash');
 });
+
+//Função das tabelas
+$(document).ready(function(){
+
+    var table = $(exemplo).DataTable({
+
+        buttons:['copy', 'csv', 'excel', 'pdf', 'print']
+    
+    });
+
+    table.buttons().container()
+        .appendTo('#exemplo_wrapper .col-md-6:eq(0)');
+
+});

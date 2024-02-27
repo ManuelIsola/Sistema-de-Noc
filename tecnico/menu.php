@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/preloader.css">
+    <link rel="stylesheet" href="../css/datatables.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -30,37 +31,9 @@
       </li>
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Técnicos
+            Manutenção
           </a>
           <ul class="dropdown-menu" style=" background-image: linear-gradient(to right, #ff7e5f, #feb47b); border: none;">
-            <li><a class="dropdown-item link-light" href="cadTecnico.php">Cadastrar</a></li>
-            <li><a class="dropdown-item link-light" href="listTecnico.php">Listar Téecnicos</a></li>
-          </ul>
-      </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Clientes
-          </a>
-          <ul class="dropdown-menu" style=" background-image: linear-gradient(to right, #ff7e5f, #feb47b); border: none;">
-            <li><a class="dropdown-item link-light" href="cadClients.php">Cadastrar Clientes</a></li>
-            <li><a class="dropdown-item link-light" href="listClients.php">Listar Clientes</a></li>
-          </ul>
-      </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Sites
-          </a>
-          <ul class="dropdown-menu" style=" background-image: linear-gradient(to right, #ff7e5f, #feb47b); border: none;">
-            <li><a class="dropdown-item link-light" href="cadSites.php">Cadastrar Sites</a></li>
-            <li><a class="dropdown-item link-light" href="listSites.php">Listar Sites</a></li>
-          </ul>
-      </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Alarmes
-          </a>
-          <ul class="dropdown-menu" style=" background-image: linear-gradient(to right, #ff7e5f, #feb47b); border: none;">
-            <li><a class="dropdown-item link-light" href="cadAlarmes.php">Cadastrar Alarme</a></li>
             <li><a class="dropdown-item link-light" href="listAlarmes.php">Listar Alarme</a></li>
           </ul>
       </li>
@@ -116,8 +89,13 @@
   </div>
 </nav>
 
-<script src="../js/jquery.min.js"></script>
+
+<script src="../js/jquery-3.7.1.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/datatables.min.js"></script>
+<script src="../js/dataTables.bootstrap5.js"></script>
+<script src="../js/pdfmake.min.js"></script>
+<script src="../js/vfs_fonts.js"></script>
 <script src="../js/manterMeConectado.js"></script>
 <script src="../js/preload.js"></script>
 <script src="../js/abcScripts.js"></script>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/preloader.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleLogin.css">
 </head>
 <body>
 
