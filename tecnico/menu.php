@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/preloader.css">
     <link rel="stylesheet" href="../css/datatables.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/step-by-step1.css">
 </head>
 <body>
 
@@ -100,3 +101,4 @@
 <script src="../js/preload.js"></script>
 <script src="../js/abcScripts.js"></script>
 <script src="../js/theme.js"></script>
+<script src="../js/step-by-step.js"></script>

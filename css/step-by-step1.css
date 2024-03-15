@@ -1,0 +1,72 @@
+.orders-steps-progress {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bar .step {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.checked .step {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #ffffff;
+}
+
+.labels {
+    text-align: center;
+    font-weight: bold;
+}
+
+.label-checked, .labels {
+    color: #ff7e5f;
+}
+
+/* Styles from previous example... */
+/*
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+*/
+fieldset {
+    padding: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+fieldset.active {
+    display: block;
+}
+/*
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+*/
+button {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: navajowhite;
+    cursor: not-allowed;
+}
